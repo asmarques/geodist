@@ -1,4 +1,4 @@
-// Implementation of the Haversine and Vincenty methods for calculating geographical
+// Package geodist implements the Haversine and Vincenty methods for calculating geographical
 // distances between points on the surface of the Earth.
 package geodist
 

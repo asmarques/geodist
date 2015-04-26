@@ -67,7 +67,7 @@ func VincentyDistance(p1 Point, p2 Point) (float64, error) {
 	}
 
 	if math.IsNaN(result) {
-		return result, fmt.Errorf("Failed to converge for %v and %v", p1, p2)
+		return result, fmt.Errorf("failed to converge for %v and %v", p1, p2)
 	}
 
 	return result, nil
