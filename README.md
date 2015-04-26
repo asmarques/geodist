@@ -24,7 +24,7 @@ func main() {
 	lis := geodist.Point{38.781311, -9.135918}
 	sfo := geodist.Point{37.618817, -122.375427}
 
-	d := geodist.HaversineDistance(lis, sfo) 
+	d := geodist.HaversineDistance(lis, sfo)
 	fmt.Printf("Haversine: %.2f km\n", d)
 
 	d, err := geodist.VincentyDistance(lis, sfo)
