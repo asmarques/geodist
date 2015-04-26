@@ -1,4 +1,6 @@
 # geodist
+[![Build Status](https://travis-ci.org/asmarques/geodist.svg)](https://travis-ci.org/asmarques/geodist)
+[![GoDoc](https://godoc.org/github.com/asmarques/geodist?status.svg)](https://godoc.org/github.com/asmarques/geodist)
 
 Implementation of the [Haversine](http://en.wikipedia.org/wiki/Haversine_formula) and [Vincenty](http://en.wikipedia.org/wiki/Vincenty%27s_formulae) methods in Go for calculating geographical distances between points on the surface of the Earth.
 
